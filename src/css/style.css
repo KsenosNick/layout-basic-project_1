@@ -35,6 +35,7 @@ nav {
 .section-about {
   height: 640px;
   background: url(../img/01-bacground-image.jpg) center/cover no-repeat;
+  position: relative;
 
   /*     background-image: url(../img/01-bacground-image.jpg);
     background-position: center;
@@ -49,4 +50,15 @@ nav {
     rgba(244, 213, 178, 0.8) 0%,
     rgba(234, 156, 65, 0.8) 100%
   );
+  position: absolute;
+  top: 349px;
+  left: 730px;
+  padding-top: 15px;
+}
+
+.section-about__border {
+  height: 160px;
+  width: 390px;
+  border: 1px solid black;
+  margin: 0 auto;
 }
